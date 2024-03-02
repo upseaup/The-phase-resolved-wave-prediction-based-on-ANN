@@ -2,7 +2,8 @@ here is data obtained by HOS-NWT.
 We obtain the npy file through the probe file.
 It should be noted that the data dt here is 0.01 s (scale model).
 We apply the subsampled to make dt = 0.05s in npy file.
-The specific settings can be referred to in the paper
+The specific settings can be referred to in the paper.
+Considering that the scaling ratio is 64, in the npy file, dt=0.05 * 8=0.4 (full model)
 
 
 # 具体设置可以见论文。需要注意的是 这里的数据的dt = 0.01(scale model) 我们需要每5个点采集一次，这是dt=0.05(scale model), 考虑到缩尺比是64，
